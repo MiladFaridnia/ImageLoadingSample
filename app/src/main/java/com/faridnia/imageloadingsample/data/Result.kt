@@ -1,4 +1,4 @@
-package com.faridnia.imageloadingsample
+package com.faridnia.imageloadingsample.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
@@ -8,7 +8,6 @@ data class Result(
     val blur_hash: String = "",
     val color: String = "",
     val created_at: String = "",
-    val current_user_collections: List<Any> = listOf(),
     val description: String = "",
     val height: Int = 0,
     val id: String = "",
