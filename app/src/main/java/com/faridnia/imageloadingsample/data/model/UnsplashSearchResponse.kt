@@ -1,10 +1,10 @@
-package com.faridnia.imageloadingsample.data
+package com.faridnia.imageloadingsample.data.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class UnsplashSearchResult(
+data class UnsplashSearchResponse(
     val results: List<Result> = listOf(),
     val total: Int = 0,
     val total_pages: Int = 0
