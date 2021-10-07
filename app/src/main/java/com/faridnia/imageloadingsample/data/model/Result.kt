@@ -1,4 +1,4 @@
-package com.faridnia.imageloadingsample.data
+package com.faridnia.imageloadingsample.data.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

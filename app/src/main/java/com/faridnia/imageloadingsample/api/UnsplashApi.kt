@@ -1,7 +1,7 @@
 package com.faridnia.imageloadingsample.api
 
 import com.faridnia.imageloadingsample.BuildConfig
-import com.faridnia.imageloadingsample.data.UnsplashSearchResponse
+import com.faridnia.imageloadingsample.data.model.UnsplashSearchResponse
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
